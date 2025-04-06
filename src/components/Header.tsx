@@ -2,15 +2,17 @@ import { Link } from "react-router"
 
 function Header() {
   return (
-    <header className="bg-indigo-950 w-full h-[50px] pl-[30px] flex items-center mb-[15px] gap-[10px] text-white">
-      <h1 className="text-xl font-bold">
-        <Link to={{ pathname: "/" }}> 
+    <header className="bg-gray-800 text-white py-6 px-8 text-center shadow-md mb-[10px]">
+      <h1 className="text-3xl font-bold mb-4">
+        <Link className="text-white" to={{ pathname: "/" }}> 
           Cinema Name
         </Link>
       </h1>
-      <p> | </p>
-      <Link className="hover:text-stone-300" to={{ pathname: "/movies" }}>
+      <Link className="text-lg mx-4 hover:text-blue-400" to={{ pathname: "/movies" }}>
         Movies
+      </Link>
+      <Link className="text-lg mx-4 hover:text-blue-400" to={{ pathname: "/tickets" }}>
+        Tickets 
       </Link>
     </header>
   )

@@ -19,13 +19,19 @@ function MovieDummy() {
   }, [slug])
 
   return (
-    <div className="pl-[30px] pr-[30px]">
+    <div>
       {loading ? (
         <p>Loading...</p>
       ): movieDetails ? (
         <>
           <h1 className="text-xl font-bold">{movieDetails.title}</h1>
-          <button className="bg-blue-900 text-white font-semibold p-[5px] pl-[10px] pr-[10px] cursor-pointer rounded-xl">Buy a ticket</button>
+          <div className="flex flex-col items-center">
+            <img src={movieDetails.poster} alt="Movie Poster" className="w-[200px] pb-[15px]" />
+            <p>{movieDetails.desc}</p>
+            <p>{movieDetails.showTime}</p>
+            <p>{movieDetails.room}</p>
+            <button className="max-w-[200px]">Buy a ticket</button>
+          </div>
         </>
       ): (
         <NotFound />
