@@ -7,12 +7,16 @@ h1 {
   letter-spacing: 0.5px;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   font-size: 1.125rem;
   line-height: 1.6;
   color: #555;
+  text-align: center;
   margin-bottom: 1.5rem;
-  text-align: justify;
 }
 
 p.highlight {

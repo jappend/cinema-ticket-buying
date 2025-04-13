@@ -48,5 +48,23 @@ export const MovieList: Movie[] = [
     poster: "https://images.justwatch.com/poster/320209239/s718/im-still-here-2024.jpg",
     showTime: "Thursday, 21:00",
     room: "Screen 1"
+  },
+  {
+    slug: "avatar-the-way-of-water",
+    title: "Avatar: The Way of Water",
+    desc: "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+    releaseYear: 2022,
+    poster: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmlpnk72yciwc.i.optimole.com%2FcqhiHLc.IIZS~2ef73%2Fw%3Aauto%2Fh%3Aauto%2Fq%3A75%2Fhttps%3A%2F%2Fbleedingcool.com%2Fwp-content%2Fuploads%2F2022%2F11%2FAVATAR_THE_WAY_OF_WATER_1SHT_DIGITAL_LOAK_sRGB_V1.jpg&f=1&nofb=1&ipt=2bd5432bcb0e94e6980a6c1bce588d5ae8b9fda6fcfa515e45827e4a12c32ba9",
+    showTime: "Monday, 20:00",
+    room: "Screen 3"
+  }, 
+  {
+    slug: "o-capacete-dourado",
+    title: "O Capacete Dourado",
+    desc: "A coming of age teenage movie where paths are crossed and hearts melt together.",
+    releaseYear: 2007,
+    poster: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.filmaffinity.com%2Fo_capacete_dourado-904559780-large.jpg&f=1&nofb=1&ipt=6155bf0f655d8b68215f623ad557a9f07875db00ffd4d0991c00cbd078607c3b&ipo=images",
+    showTime: "Sunday, 14:00",
+    room: "Screen 1"
   }
 ];
